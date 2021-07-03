@@ -1,0 +1,170 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+header, footer {
+  position: fixed;
+  width: 100%;
+  background-color: lightblue;
+  color: black;
+  z-index: 999; 
+  border-radius: 5px;
+}
+
+header {
+  top: 0;
+  height: 70px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  bottom: 0;
+  height: 18px;
+  font-size: 10px;
+  padding-top: 4px;
+}
+
+.leftTop {
+  float: left;
+  margin: 7px;
+
+}
+
+.ticTacToe {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.loginButton {
+  background-color: rgb(62, 62, 243);
+  color: white;
+  height: 40px;
+  width: 15%;
+  margin: 30px;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgb(62, 62, 243);
+  padding: 1px;
+}
+
+.loginButton:hover {
+  background-color: rgb(43, 43, 246);
+  border-color: blue;
+}
+
+input {
+  margin: 10px;
+  height: 35px;
+  width: 30%;
+  border-radius: 5px;
+  border-color: white;
+  font-size: large;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.login {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.squareButton {
+  background: white;
+  border: 2px solid black;
+  font-size: 60px;
+  font-weight:600;
+  cursor: pointer;
+  outline: none;
+  color: black;
+}
+
+.board {
+  border: 4px solid black;
+  border-radius: 5px;
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.game {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(127, 200, 224);
+  border-radius: 5px;
+}
+
+.msg {
+  background-color: lightcoral;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.endgame {
+  background-color: rgb(127, 200, 224);
+  padding: 25px;
+  margin-top: 25px;
+  color: white;
+}
+
+.retry-button {
+  background-color: rgb(62, 62, 243);
+  color: white;
+  height: 40px;
+  width: 25%;
+  margin: 30px;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgb(62, 62, 243);
+  padding: 1px;
+}
+
+.retry-button:hover {
+  background-color: rgb(43, 43, 246);
+  border-color: blue;
+}
+
+.congrats {
+  font-size: 50px;
+}
+
+.match-list {
+  border: 1px solid black;
+}
+
+li {
+  color: black;
+  font-weight: bold;
+  background-color: rgb(228, 225, 225);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 35px;
+  border-radius: 5px;
+  font-size: medium;
+  list-style: none;
+  text-align: center;
+}
